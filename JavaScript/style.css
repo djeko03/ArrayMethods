@@ -1,0 +1,77 @@
+
+.firstScreen__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: fit-content;
+    margin: 0 auto;
+    border: 5px solid;
+    height: 90%;
+    background-color: rgb(169, 191, 204);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.firstScreen {
+    height: 1000px;
+    background-color: rgb(171, 185, 181);
+    background: url(img/MhPeaJ.jpg) center;
+}
+
+.firstScreen__heading {
+    text-align: center;
+}
+
+.firstScreen__text {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.startButton {
+    cursor: pointer;
+    background-color: cornflowerblue;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border: 4px solid orangered;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.startButton:hover {
+    background-color: blue;
+    border: 4px solid red;
+    color: red;
+    transition: .2s linear;
+}
+
+.resetButton {
+    cursor: pointer;
+    background-color: orangered;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border: 4px solid cornflowerblue;
+    font-size: 16px;
+}
+.resetButton:hover {
+    background-color: red;
+    color: blue;
+    border: 4px solid blue;
+    transition: .2s linear;
+}
+
+input[id="answerInput"] {
+    margin-top: 15px;
+    width: 400px;
+    border: 2px solid black;
+    background-color: blueviolet;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 15px;
+}
+.firstScreen__input::placeholder {
+    color: white;
+    opacity: .7;
+}
